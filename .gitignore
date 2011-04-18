@@ -3,6 +3,8 @@ pkg/*
 .bundle
 .idea
 .idea/*
-redis_associations.gemspec
+*.gemspec
 *.gem
+Gemfile.lock
+
 
