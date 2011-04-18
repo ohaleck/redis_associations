@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = RedisAssociations::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Maciej Ochałek"]
-  s.email       = ["maciek@ochalek.net"]
+  s.email       = ["ohaleckATgmail.com"]
   s.homepage    = ""
   s.summary     = %q{ActiveRecord model associations in Redis}
   s.description = %q{Denormalizes and improves the performance of associations between ActiveRecord models by storing them in Redis.}
