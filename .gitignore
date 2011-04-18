@@ -3,7 +3,6 @@ pkg/*
 .bundle
 .idea
 .idea/*
-*.gemspec
 *.gem
 Gemfile.lock
 
