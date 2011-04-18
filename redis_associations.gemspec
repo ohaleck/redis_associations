@@ -12,7 +12,10 @@ Gem::Specification.new do |s|
   s.summary     = %q{ActiveRecord model associations in Redis}
   s.description = %q{Denormalizes and improves the performance of associations between ActiveRecord models by storing them in Redis.}
 
-  s.rubyforge_project = "redis_associations"
+  s.add_dependency "redis"
+  s.add_dependency "SystemTimer" # required by redis to work well
+  s.add_development_dependency "mocha"
+
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
