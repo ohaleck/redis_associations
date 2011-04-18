@@ -3,3 +3,6 @@ pkg/*
 .bundle
 .idea
 .idea/*
+redis_associations.gemspec
+*.gem
+
