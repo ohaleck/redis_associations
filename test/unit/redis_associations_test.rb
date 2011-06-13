@@ -1,4 +1,4 @@
-require 'mocha'
+require "test_helper"
 
 class Comment
   include RedisAssociations

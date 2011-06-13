@@ -14,11 +14,12 @@ Gem::Specification.new do |s|
 
   s.add_dependency "redis"
   s.add_dependency "SystemTimer" # required by redis to work well
-  s.add_development_dependency "mocha"
+  s.add_development_dependency "rails"
 
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  s.test_files    = Dir.glob('test/*_test.rb')
 end
