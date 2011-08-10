@@ -6,5 +6,5 @@ pkg/*
 *.gemspec
 *.gem
 Gemfile.lock
-
+*~
 
